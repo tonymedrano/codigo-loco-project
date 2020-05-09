@@ -11,7 +11,6 @@
   background: rgba(0, 0, 0, 0.8);
   transition: opacity 250ms;
   opacity: 0;
-
   /* Dialog fades in when it matches an anchor target */
   &:target {
       opacity: 1;
