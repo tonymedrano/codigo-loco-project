@@ -1,0 +1,17 @@
+/*
+ * Filename: /Users/tonymedrano/Desktop/codigo-loco-project/codigo-loco-app/src/global/mixins.scss
+ * Path: /Users/tonymedrano/Desktop/codigo-loco-project/codigo-loco-app
+ * Created Date: Saturday, May 9th 2020, 2:24:20 pm
+ * Author: Tony Medrano
+ * 
+ * Copyright (c) 2020 Your Company
+ */
+
+ @mixin corner-icon($name, $top-or-bottom, $left-or-right) {
+    .icon-#{$name} {
+      background: black;
+      position: absolute;
+      #{$top-or-bottom}: 0;
+      #{$left-or-right}: 0;
+    }
+  }
